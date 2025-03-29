@@ -75,7 +75,7 @@ article.testimonial {
   background-color: var(--White);
   padding: var(--spacing-small);
   border-radius: var(--spacing-xsmall);
-  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin: var(--spacing-small) 0;
 }
 
