@@ -136,3 +136,9 @@ article.testimonial:nth-child(4) {
 article.testimonial:nth-child(5) {
   background-color: var(--White);
 }
+article.testimonial:nth-child(3) p{
+  color: var(--Grey-500);
+}
+article.testimonial:nth-child(5) p{
+  color: var(--Grey-500);
+}
