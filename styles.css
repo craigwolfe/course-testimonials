@@ -45,17 +45,15 @@ body {
 }
 
 /* Testimonials Section */
-.testimonials {
-  padding-block: 2rem;
-  width: min(95%, 70rem);
-  margin-inline: auto;
-}
 
 @media (min-width: 50rem) {
   .testimonials {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-small);
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
   }
 
   article.testimonial:nth-child(1) {
